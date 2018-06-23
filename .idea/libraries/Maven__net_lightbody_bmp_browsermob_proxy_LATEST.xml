@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: net.lightbody.bmp:browsermob-proxy:LATEST">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/lightbody/bmp/browsermob-proxy/LATEST/browsermob-proxy-LATEST.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/net/lightbody/bmp/browsermob-proxy/LATEST/browsermob-proxy-LATEST-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/net/lightbody/bmp/browsermob-proxy/LATEST/browsermob-proxy-LATEST-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
