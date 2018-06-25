@@ -75,25 +75,29 @@
             <scope>test</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/net.lightbody.bmp/browsermob-proxy -->
-
+        <dependency>
+            <groupId>net.lightbody.bmp</groupId>
+            <artifactId>browsermob-proxy</artifactId>
+            <version>2.1.5</version>
+        </dependency>
         <dependency>
             <groupId>cglib</groupId>
             <artifactId>cglib-nodep</artifactId>
             <version>3.2.4</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>net.lightbody.bmp</groupId>
-            <artifactId>browsermob-proxy</artifactId>
-            <version>2.1.5</version>
-            <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.seleniumhq.selenium</groupId>
-                    <artifactId>selenium-api</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>net.lightbody.bmp</groupId>-->
+            <!--<artifactId>browsermob-proxy</artifactId>-->
+            <!--<version>LATEST</version>-->
+            <!--<scope>test</scope>-->
+            <!--<exclusions>-->
+                <!--<exclusion>-->
+                    <!--<groupId>org.seleniumhq.selenium</groupId>-->
+                    <!--<artifactId>selenium-api</artifactId>-->
+                <!--</exclusion>-->
+            <!--</exclusions>-->
+        <!--</dependency>-->
         <!-- https://mvnrepository.com/artifact/com.atlassian.confluence.test/confluence-webdriver-runner -->
         <dependency>
             <groupId>com.atlassian.confluence.test</groupId>
