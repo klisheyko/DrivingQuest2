@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
-  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
     <content url="file://$MODULE_DIR$">
@@ -13,6 +13,15 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Maven: org.testng:testng:6.14.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.apache-extras.beanshell:bsh:2.0b6" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/apache-log4j-1.2.17/log4j-1.2.17.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-java:3.12.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-edge-driver:3.12.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-ie-driver:3.12.0" level="project" />
@@ -44,15 +53,7 @@
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-api:3.12.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: net.lightbody.bmp:browsermob-proxy:LATEST" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: cglib:cglib-nodep:3.2.4" level="project" />
-    <orderEntry type="library" name="Maven: com.atlassian.confluence.test:confluence-webdriver-runner:5.2-confdev10808-m1" level="project" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$USER_HOME$/Downloads/apache-log4j-1.2.17/log4j-1.2.17.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.logging.log4j:log4j-api:2.4.1" level="project" />
   </component>
 </module>
