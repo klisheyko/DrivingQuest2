@@ -51,8 +51,8 @@
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:3.11.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-support:3.12.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-api:3.12.0" level="project" />
-    <orderEntry type="library" scope="TEST" name="Maven: net.lightbody.bmp:browsermob-proxy:LATEST" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: cglib:cglib-nodep:3.2.4" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: net.lightbody.bmp:browsermob-proxy:2.1.5" level="project" />
     <orderEntry type="library" name="Maven: com.atlassian.confluence.test:confluence-webdriver-runner:5.2-confdev10808-m1" level="project" />
   </component>
 </module>
