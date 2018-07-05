@@ -50,7 +50,6 @@
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-chrome-driver:3.11.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-support:3.13.0" level="project" />
     <orderEntry type="library" name="Maven: org.seleniumhq.selenium:selenium-api:3.13.0" level="project" />
-    <orderEntry type="library" name="Maven: net.lightbody.bmp:browsermob-proxy:2.1.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: cglib:cglib-nodep:3.2.4" level="project" />
     <orderEntry type="library" name="Maven: log4j:log4j:1.2.17" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.codeborne:selenide:4.12.2" level="project" />
