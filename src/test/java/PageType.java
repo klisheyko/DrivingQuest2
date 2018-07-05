@@ -3,6 +3,7 @@ public enum PageType {
     Quiz,
     Validation,
     Video,
+    SaveQuiz,
     Dashboard,
     Unknown,
 }

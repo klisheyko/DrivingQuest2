@@ -68,12 +68,12 @@
             <artifactId>selenium-java</artifactId>
             <version>LATEST</version>
         </dependency>
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>6.13.1</version>
-            <scope>test</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.testng</groupId>-->
+            <!--<artifactId>testng</artifactId>-->
+            <!--<version>6.13.1</version>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
         <!-- https://mvnrepository.com/artifact/net.lightbody.bmp/browsermob-proxy -->
         <dependency>
             <groupId>net.lightbody.bmp</groupId>
@@ -87,37 +87,46 @@
             <scope>test</scope>
         </dependency>
         <!--<dependency>-->
-            <!--<groupId>net.lightbody.bmp</groupId>-->
-            <!--<artifactId>browsermob-proxy</artifactId>-->
-            <!--<version>LATEST</version>-->
-            <!--<scope>test</scope>-->
-            <!--<exclusions>-->
-                <!--<exclusion>-->
-                    <!--<groupId>org.seleniumhq.selenium</groupId>-->
-                    <!--<artifactId>selenium-api</artifactId>-->
-                <!--</exclusion>-->
-            <!--</exclusions>-->
+        <!--<groupId>net.lightbody.bmp</groupId>-->
+        <!--<artifactId>browsermob-proxy</artifactId>-->
+        <!--<version>LATEST</version>-->
+        <!--<scope>test</scope>-->
+        <!--<exclusions>-->
+        <!--<exclusion>-->
+        <!--<groupId>org.seleniumhq.selenium</groupId>-->
+        <!--<artifactId>selenium-api</artifactId>-->
+        <!--</exclusion>-->
+        <!--</exclusions>-->
         <!--</dependency>-->
-         <!--https://mvnrepository.com/artifact/com.atlassian.confluence.test/confluence-webdriver-runner-->
+        <!--https://mvnrepository.com/artifact/com.atlassian.confluence.test/confluence-webdriver-runner-->
         <!--<dependency>-->
-            <!--<groupId>com.atlassian.confluence.test</groupId>-->
-            <!--<artifactId>confluence-webdriver-runner</artifactId>-->
-            <!--<version>2.1.5</version>-->
+        <!--<groupId>com.atlassian.confluence.test</groupId>-->
+        <!--<artifactId>confluence-webdriver-runner</artifactId>-->
+        <!--<version>2.1.5</version>-->
         <!--</dependency>-->
 
         <!--https://mvnrepository.com/artifact/log4j/log4j-->
         <!--<dependency>-->
-            <!--<groupId>log4j</groupId>-->
-            <!--<artifactId>log4j</artifactId>-->
-            <!--<version>1.2.17</version>-->
+        <!--<groupId>log4j</groupId>-->
+        <!--<artifactId>log4j</artifactId>-->
+        <!--<version>1.2.17</version>-->
         <!--</dependency>-->
         <!--&lt;!&ndash;Log4j 2&ndash;&gt;-->
         <!--<dependency>-->
-            <!--<groupId>org.apache.logging.log4j</groupId>-->
-            <!--<artifactId>log4j-api</artifactId>-->
-            <!--<version>2.4.1</version>-->
+        <!--<groupId>org.apache.logging.log4j</groupId>-->
+        <!--<artifactId>log4j-api</artifactId>-->
+        <!--<version>2.4.1</version>-->
         <!--</dependency>-->
+        <dependency>
+            <groupId>log4j</groupId>
+            <artifactId>log4j</artifactId>
+            <version>1.2.17</version>
+        </dependency>
+        <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>4.12.2</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
-
-
 </project>
