@@ -118,11 +118,13 @@ public class ContinueCourse {
                 log.debug("If we get to the main menu but the Continue Course item is not active. This means that the course is fully completed. Press LogOut");
                 break;
             case SaveQuiz:
+                WebElement parentTaught = driver.findElement(parentTaughtLocator);
                 WebElement textChouseWay = driver.findElement(textChouseWayLocator);
-                if(textChouseWay.isEnabled()){
+                if(parentTaught != null){
                     Assert.assertEquals("Texas requires teen students to complete 14 Hours of Behind-the-Wheel training with a Parent-Instructor or with a Driving School. How do you wish to complete these hours?",textChouseWay.getText());
-                    driver.findElement(parentTaughtLocator).click();
+                    parentTaught.click();
                 }
+                break;
             case Unknown:
                //Asser ?
                 log.error("LogOut button pressed. AutoTest Was Stopped");
